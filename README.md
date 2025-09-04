@@ -6,17 +6,16 @@ Este repositorio contiene la modelación de la **arquitectura actual del sistema
 
 ## 📁 Estructura del repositorio
 
-```taller-03-arquitectura-c4/
+```
+taller-03-arquitectura-c4/
 ├── README.md
-├── clase/
-│ ├── c1-contexto-borrador.drawio
-│ ├── c2-contenedores-borrador.drawio
-│ └── notas.md
 └── entrega/
 ├── c1-contexto-final.drawio
 ├── c2-contenedores-final.drawio
 ├── informe.md
 └── referencias.md
+```
+
 
 
 ---
