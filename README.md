@@ -16,7 +16,7 @@ Este repositorio contiene la modelación de la **arquitectura actual del sistema
 ├── c1-contexto-final.drawio
 ├── c2-contenedores-final.drawio
 ├── informe.md
-└── referencias.md```
+└── referencias.md
 
 
 ---
