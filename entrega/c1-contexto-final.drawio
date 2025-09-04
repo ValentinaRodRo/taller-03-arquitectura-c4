@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.2">
+  <diagram name="Página-1" id="avLeGewz2R0BDdKo31yc">
+    <mxGraphModel dx="1042" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eGGljI_kPMmt3IyISTj0-1" value="Cliente final" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="60" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eGGljI_kPMmt3IyISTj0-10" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" target="eGGljI_kPMmt3IyISTj0-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGGljI_kPMmt3IyISTj0-18" value="Gestiona&lt;div&gt;&amp;nbsp;facturación&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="eGGljI_kPMmt3IyISTj0-10">
+          <mxGeometry x="-0.3233" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGGljI_kPMmt3IyISTj0-2" value="Jefe Administrativa" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="60" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eGGljI_kPMmt3IyISTj0-4" value="Jefe de Producción" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="60" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eGGljI_kPMmt3IyISTj0-8" value="Sistema Central Actual – ERP Ocular + registros manuales" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="420" y="270" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eGGljI_kPMmt3IyISTj0-11" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eGGljI_kPMmt3IyISTj0-1" target="eGGljI_kPMmt3IyISTj0-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="330" as="sourcePoint" />
+            <mxPoint x="510" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="90" />
+              <mxPoint x="200" y="200" />
+              <mxPoint x="463" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGGljI_kPMmt3IyISTj0-17" value="Entrega pedido&lt;div&gt;&amp;nbsp;en físico o por llamada&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="eGGljI_kPMmt3IyISTj0-11">
+          <mxGeometry x="-0.133" relative="1" as="geometry">
+            <mxPoint x="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGGljI_kPMmt3IyISTj0-12" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eGGljI_kPMmt3IyISTj0-4" target="eGGljI_kPMmt3IyISTj0-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="170" as="sourcePoint" />
+            <mxPoint x="580" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="90" />
+              <mxPoint x="810" y="200" />
+              <mxPoint x="548" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGGljI_kPMmt3IyISTj0-19" value="Coordina órdenes&amp;nbsp;&lt;div&gt;de producción&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="eGGljI_kPMmt3IyISTj0-12">
+          <mxGeometry x="0.1902" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGGljI_kPMmt3IyISTj0-13" value="&lt;strong data-end=&quot;605&quot; data-start=&quot;584&quot;&gt;Correo / WhatsApp&lt;/strong&gt; (Canales de comunicación con clientes)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="570" y="440" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eGGljI_kPMmt3IyISTj0-14" value="&lt;strong data-end=&quot;554&quot; data-start=&quot;531&quot;&gt;Plataforma Bancaria&lt;/strong&gt; (Pagos electrónicos)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="270" y="440" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eGGljI_kPMmt3IyISTj0-15" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eGGljI_kPMmt3IyISTj0-8" target="eGGljI_kPMmt3IyISTj0-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="410" as="sourcePoint" />
+            <mxPoint x="580" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="505" y="380" />
+              <mxPoint x="335" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGGljI_kPMmt3IyISTj0-21" value="Procesa&amp;nbsp;&lt;div&gt;pagos&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="eGGljI_kPMmt3IyISTj0-15">
+          <mxGeometry x="0.0597" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGGljI_kPMmt3IyISTj0-16" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eGGljI_kPMmt3IyISTj0-8" target="eGGljI_kPMmt3IyISTj0-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="410" as="sourcePoint" />
+            <mxPoint x="580" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="505" y="380" />
+              <mxPoint x="650" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGGljI_kPMmt3IyISTj0-22" value="Envía&amp;nbsp;&lt;div&gt;confirmaciones&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="eGGljI_kPMmt3IyISTj0-16">
+          <mxGeometry x="-0.0616" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
