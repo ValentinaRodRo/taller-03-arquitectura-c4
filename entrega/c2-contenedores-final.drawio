@@ -1,88 +1,94 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.2">
   <diagram name="Página-1" id="SDaG4tq_g4ovvIy5OgZq">
-    <mxGraphModel dx="1389" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1042" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="537t4w5oqy_eiYzYWGQg-1" value="Jefe de Producción" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="40" width="30" height="60" as="geometry" />
+        <mxCell id="537t4w5oqy_eiYzYWGQg-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
+          <mxGeometry x="195" y="420" width="560" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="537t4w5oqy_eiYzYWGQg-2" value="Jefe Administrativa" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="460" y="40" width="30" height="60" as="geometry" />
+        <mxCell id="537t4w5oqy_eiYzYWGQg-10" value="ERP Ocular (Facturación e inventario)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="245" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="537t4w5oqy_eiYzYWGQg-3" value="&amp;nbsp;Cliente final" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="40" width="30" height="60" as="geometry" />
+        <mxCell id="537t4w5oqy_eiYzYWGQg-11" value="&lt;span style=&quot;text-align: left;&quot;&gt;Sistema Central Actual&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left; background-color: transparent;&quot;&gt;(ERP Ocular + procesos manuales)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="375" y="460" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="537t4w5oqy_eiYzYWGQg-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
-          <mxGeometry x="195" y="240" width="560" height="190" as="geometry" />
+        <mxCell id="537t4w5oqy_eiYzYWGQg-12" value="Registros manuales (Excel, papel, llamadas)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="405" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="537t4w5oqy_eiYzYWGQg-10" value="ERP Ocular (Facturación e inventario)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="245" y="320" width="120" height="60" as="geometry" />
+        <mxCell id="537t4w5oqy_eiYzYWGQg-13" value="Plataforma bancaria (Pagos electrónicos)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="405" y="680" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="537t4w5oqy_eiYzYWGQg-11" value="&lt;span style=&quot;text-align: left;&quot;&gt;Sistema Central Actual&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left; background-color: transparent;&quot;&gt;(ERP Ocular + procesos manuales)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="375" y="260" width="200" height="30" as="geometry" />
+        <mxCell id="537t4w5oqy_eiYzYWGQg-14" value="Canal de comunicación con clientes (Correo/WhatsApp)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="575" y="500" width="135" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="537t4w5oqy_eiYzYWGQg-12" value="Registros manuales (Excel, papel, llamadas)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="405" y="320" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="537t4w5oqy_eiYzYWGQg-13" value="Plataforma bancaria (Pagos electrónicos)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="405" y="500" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="537t4w5oqy_eiYzYWGQg-14" value="Canal de comunicación con clientes (Correo/WhatsApp)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="575" y="320" width="135" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="537t4w5oqy_eiYzYWGQg-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="537t4w5oqy_eiYzYWGQg-8">
+        <mxCell id="537t4w5oqy_eiYzYWGQg-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="537t4w5oqy_eiYzYWGQg-8" edge="1" source="r1MN2Aafym3TmlIkR5cK-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="130" as="sourcePoint" />
             <mxPoint x="540" y="250" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="220" y="200" />
-              <mxPoint x="335" y="200" />
+              <mxPoint x="150" y="320" />
+              <mxPoint x="335" y="320" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="537t4w5oqy_eiYzYWGQg-22" value="Entrega&amp;nbsp;&lt;div&gt;pedido&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="537t4w5oqy_eiYzYWGQg-18">
+        <mxCell id="537t4w5oqy_eiYzYWGQg-22" value="Entrega&amp;nbsp;&lt;div&gt;pedido&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="537t4w5oqy_eiYzYWGQg-18" vertex="1" connectable="0">
           <mxGeometry x="-0.0305" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="537t4w5oqy_eiYzYWGQg-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="537t4w5oqy_eiYzYWGQg-8">
+        <mxCell id="537t4w5oqy_eiYzYWGQg-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="537t4w5oqy_eiYzYWGQg-8" edge="1" source="r1MN2Aafym3TmlIkR5cK-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="475" y="130" as="sourcePoint" />
             <mxPoint x="540" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="537t4w5oqy_eiYzYWGQg-23" value="Gestiona facturación" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="537t4w5oqy_eiYzYWGQg-19">
+        <mxCell id="537t4w5oqy_eiYzYWGQg-23" value="Gestiona facturación" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="537t4w5oqy_eiYzYWGQg-19" vertex="1" connectable="0">
           <mxGeometry x="-0.0461" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="537t4w5oqy_eiYzYWGQg-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="537t4w5oqy_eiYzYWGQg-8">
+        <mxCell id="537t4w5oqy_eiYzYWGQg-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="537t4w5oqy_eiYzYWGQg-8" edge="1" source="r1MN2Aafym3TmlIkR5cK-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="740" y="130" as="sourcePoint" />
             <mxPoint x="540" y="250" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="740" y="200" />
-              <mxPoint x="615" y="200" />
+              <mxPoint x="855" y="320" />
+              <mxPoint x="615" y="320" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="537t4w5oqy_eiYzYWGQg-24" value="Coordina órdenes&amp;nbsp;&lt;div&gt;de producción&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="537t4w5oqy_eiYzYWGQg-20">
+        <mxCell id="537t4w5oqy_eiYzYWGQg-24" value="Coordina órdenes&amp;nbsp;&lt;div&gt;de producción&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="537t4w5oqy_eiYzYWGQg-20" vertex="1" connectable="0">
           <mxGeometry x="0.1495" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="537t4w5oqy_eiYzYWGQg-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="537t4w5oqy_eiYzYWGQg-8" target="537t4w5oqy_eiYzYWGQg-13">
+        <mxCell id="537t4w5oqy_eiYzYWGQg-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="537t4w5oqy_eiYzYWGQg-8" target="537t4w5oqy_eiYzYWGQg-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="490" y="440" as="sourcePoint" />
-            <mxPoint x="540" y="390" as="targetPoint" />
+            <mxPoint x="490" y="620" as="sourcePoint" />
+            <mxPoint x="540" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="537t4w5oqy_eiYzYWGQg-25" value="Procesa pagos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="537t4w5oqy_eiYzYWGQg-21">
+        <mxCell id="537t4w5oqy_eiYzYWGQg-25" value="Procesa pagos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="537t4w5oqy_eiYzYWGQg-21" vertex="1" connectable="0">
           <mxGeometry x="-0.0724" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <object placeholders="1" c4Name="Cliente final" c4Type="Person" c4Description="Solicita y consulta pedidos ópticos." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="r1MN2Aafym3TmlIkR5cK-1">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1" parent="1">
+            <mxGeometry x="50" y="80" width="200" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Jefe Administrativa" c4Type="Person" c4Description="Gestiona facturación y control." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="r1MN2Aafym3TmlIkR5cK-2">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1" parent="1">
+            <mxGeometry x="375" y="10" width="200" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Jefe de Producción" c4Type="Person" c4Description="Coordina el laboratorio óptico." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="r1MN2Aafym3TmlIkR5cK-5">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1" parent="1">
+            <mxGeometry x="755" y="70" width="200" height="180" as="geometry" />
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
