@@ -1,6 +1,10 @@
-# 🛠️ Taller 3 - Arquitectura C4 (Compulens & Llanes SAS)
+# 🛠️ Taller 3 - Arquitectura C4
 
-Este repositorio contiene la modelación de la **arquitectura actual del sistema del cliente Compulens & Llanes SAS**, realizado con el modelo **C4** en sus vistas **C1 (Contexto)** y **C2 (Contenedores)**.
+Este repositorio contiene la modelación de la **arquitectura actual de sistemas** utilizando el **modelo C4**, con vistas **C1 (Contexto)** y **C2 (Contenedores)**.  
+Se desarrolla en dos fases:
+
+- **Parte 1 (Trabajo en clase):** Caso base RedExpress (plataforma logística).  
+- **Parte 2 (Aplicación real):** Cliente Compulens & Llanes SAS (sector óptico y salud).  
 
 ---
 
@@ -9,6 +13,10 @@ Este repositorio contiene la modelación de la **arquitectura actual del sistema
 ```
 taller-03-arquitectura-c4/
 ├── README.md
+├── clase/
+│ ├── c1-contexto-borrador.drawio
+│ ├── c2-contenedores-borrador.drawio
+│ └── notas.md
 └── entrega/
 ├── c1-contexto-final.drawio
 ├── c2-contenedores-final.drawio
@@ -20,30 +28,45 @@ taller-03-arquitectura-c4/
 
 ---
 
+
+---
+
 ## 🎯 Objetivo
-Representar la arquitectura actual de **Compulens & Llanes SAS** para:
+Representar la arquitectura actual de los sistemas para:
 - Identificar actores, sistemas y relaciones externas (**C1**).
-- Describir los principales contenedores internos del sistema (**C2**).
+- Describir los principales contenedores internos y dependencias (**C2**).
 - Analizar debilidades y oportunidades de mejora.
 
 ---
 
 ## 📊 Vistas del Modelo C4
 
-### 🔹 C1 - Vista de Contexto
-Muestra a los actores principales (Cliente final, Jefe Administrativa, Jefe de Producción), el sistema central (ERP Ocular + procesos manuales) y los sistemas externos (Plataforma Bancaria, Correo/WhatsApp).
+### 🔹 Parte 1 – Caso RedExpress
+- **C1 (Contexto):** Actores → Usuario final, Mensajero, Operador logístico.  
+  Sistemas → App Cliente, Web Operadores, Sistema Central de Logística, API de notificaciones.  
+- **C2 (Contenedores):**  
+  - Contenedores internos: Gestión de Paquetes, Seguimiento GPS, Motor de Rutas, Sistema de Alertas, Base de Datos Distribuida, Balanceador de Carga.  
+  - Sistemas externos: API de Notificaciones, Proveedor de Geolocalización.  
 
-Archivo: `entrega/c1-contexto-final.drawio`
+Archivos:  
+- `clase/c1-contexto-borrador.drawio`  
+- `clase/c2-contenedores-borrador.drawio`  
 
 ---
 
-### 🔹 C2 - Vista de Contenedores
-Desglosa el sistema central en sus contenedores internos:
-- **ERP Ocular** (facturación e inventario).
-- **Registros manuales** (Excel, papel, llamadas).
-- **Comunicación externa** (Correo/WhatsApp).
+### 🔹 Parte 2 – Caso Compulens & Llanes SAS
+- **C1 (Contexto):**  
+  - Actores: Cliente final, Jefe Administrativa, Jefe de Producción.  
+  - Sistema central: ERP Ocular + registros manuales.  
+  - Sistemas externos: Plataforma Bancaria, Correo/WhatsApp (ahora conectados directamente con Cliente y Jefe Administrativa).  
+- **C2 (Contenedores):**  
+  - Internos: ERP Ocular, Registros Manuales.  
+  - Externos: Plataforma Bancaria, Correo/WhatsApp.  
+  - Relación clave: **Registros Manuales ↔ ERP Ocular** (doble digitación).  
 
-Archivo: `entrega/c2-contenedores-final.drawio`
+Archivos:  
+- `entrega/c1-contexto-final.drawio`  
+- `entrega/c2-contenedores-final.drawio`  
 
 ---
 
@@ -53,9 +76,11 @@ Archivo: `entrega/c2-contenedores-final.drawio`
 
 ---
 
-## ✅ Conclusión
-La arquitectura actual de **Compulens & Llanes SAS** combina un ERP especializado con procesos manuales y comunicación dispersa.  
-La **digitalización de pedidos** y su **integración con el ERP Ocular** son la mayor oportunidad de mejora para reducir errores, eliminar la doble digitación y mejorar la experiencia del cliente.
+## ✅ Conclusiones
+- **RedExpress (Parte 1):** Arquitectura digitalizada, con integración de APIs externas, pero dependiente de servicios de terceros para notificaciones y mapas.  
+- **Compulens & Llanes SAS (Parte 2):** Arquitectura fragmentada, con dependencia de procesos manuales y comunicación externa no centralizada.  
+  - La **doble digitación** entre registros manuales y ERP Ocular representa el mayor problema.  
+  - Se requiere digitalizar la toma de pedidos y centralizar la comunicación con clientes.  
 
 ---
 
